@@ -1,9 +1,12 @@
+import Header from './components/header'
+import routes from './config/routes'
 
 function App() {
   return (
-    <div>
-        <h1>Hell :)</h1>
-    </div>
+    <>
+    <Header />
+    {routes}
+    </>
   );
 }
 
